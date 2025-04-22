@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>White Bricks RP</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: white;
+    }
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .rule {
+      margin-bottom: 30px;
+      border-left: 4px solid white;
+      padding-left: 15px;
+    }
+    .quota-section {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .quota-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .quota-table th, .quota-table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #444;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>White Bricks</h1>
+    <p>Un gang RP pour une immersion totale</p>
+  </header>
+
+  <nav>
+    <a href="#regles">Règlement</a>
+    <a href="#quota">Quotas</a>
+  </nav>
+
+  <section id="regles">
+    <h2>📜 Règlement du Serveur</h2>
+    <div class="rule">
+      <h3>1️⃣ Respect Mutuel</h3>
+      <p>🤝 Traitez chaque membre avec respect, qu’il s’agisse de RP ou de discussions hors RP.<br>
+      🚫 Aucun comportement toxique, insultes, harcèlement ou discrimination ne sera toléré.</p>
+    </div>
+    <div class="rule">
+      <h3>2️⃣ Contenu Approprié</h3>
+      <p>🔞 Pas de contenu inapproprié, offensant ou illégal (images, liens, vidéos, etc.).<br>
+      📝 Maintenez un langage approprié dans les salons publics.</p>
+    </div>
+    <div class="rule">
+      <h3>3️⃣ Rôle-Play (RP)</h3>
+      <p>🎭 Respectez les règles du RP en vigueur sur le serveur.<br>
+      ❌ Pas de métagaming, powergaming ou toute autre pratique nuisible à l’immersion.</p>
+    </div>
+    <div class="rule">
+      <h3>4️⃣ Confidentialité</h3>
+      <p>🔒 Ce qui est discuté ici reste sur ce serveur. Pas de partage d’informations ou de captures d’écran sans autorisation.</p>
+    </div>
+    <div class="rule">
+      <h3>5️⃣ Administration</h3>
+      <p>🛡 Les décisions des administrateurs et modérateurs sont finales.<br>
+      📩 Pour toute question ou problème, contactez l’équipe dans le respect et la courtoisie.</p>
+    </div>
+    <p><strong>📢 Validation des règles :</strong> Réagissez avec ✅ sur ce message pour confirmer que vous avez lu et compris les règles.</p>
+    <p><em>✨ Merci de votre compréhension et bienvenue dans la communauté ! N'oublie pas de faire ta présentation ✨</em></p>
+  </section>
+
+  <section id="quota">
+    <h2>📊 Quotas des Membres</h2>
+    <div class="quota-section">
+      <table class="quota-table">
+        <thead>
+          <tr><th>Nom</th><th>Quota Hebdo</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Player1</td><td>5/10</td><td>En cours</td></tr>
+          <tr><td>Player2</td><td>10/10</td><td>✅ Terminé</td></tr>
+          <tr><td>Player3</td><td>3/10</td><td>En cours</td></tr>
+        </tbody>
+      </table>
+      <p><em>📝 Modifie ces valeurs dans le code HTML pour mettre à jour le classement.</em></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 White Bricks RP - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
